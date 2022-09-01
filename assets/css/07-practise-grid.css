@@ -1,0 +1,36 @@
+
+:root{
+    --color1: #84bdc7;
+    --color2: #d9db57;
+  }
+  
+  body{
+    font-family: Montserrat;
+    color:#222222;
+    padding:0;
+    margin:0;
+  }
+  
+
+  
+  header nav.menu ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap:1rem;
+  }
+  
+  
+  header nav.menu a{
+    text-decoration: none;
+    background-color: var(--color1);
+    color: white;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+  }
+  
+  header nav.menu a:hover{
+    background-color: var(--color2);
+  }
+  

@@ -1,0 +1,76 @@
+
+     <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Resim-Buton</title>
+  </head>
+  <body>
+
+<!-- ** border’lar hakkında ayrıntılı bilgi için  
+    !https://getbootstrap.com/docs/5.0/utilities/borders/
+-->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col">
+        <img id="resim-1" class ="img-fluid border border-success border-3 rounded-pill" src ="https://media.istockphoto.com/photos/old-wooden-windmill-painted-in-red-picture-id515015755?s=612x612" alt="img-1">
+      </div>
+      <div class="col">
+        <img class =" img-fluid img-thumbnail" src ="https://media.istockphoto.com/photos/old-farm-house-in-iceland-picture-id474312940?s=612x612" alt="img-2">
+      </div>
+       <div class="col">
+        <img class =" img-fluid border border-danger border-4 rounded-3"  src ="https://media.istockphoto.com/photos/old-windmill-in-potsdam-germany-europe-picture-id484747347?s=612x612" alt="img-3">
+      </div>
+     
+    </div>
+  </div>
+ 
+
+  <div class="container mt-4">
+    <button class="btn btn-outline-warning">TIKLA</button>
+    <button class="btn btn-danger">SİL</button>
+       <button class="btn btn-success">GÖNDER</button>
+    <button type="button" class="btn btn-outline-primary btn-lg d-block  w-100 mt-4">
+       KAYDET
+  </button>
+  </div>
+  <div class="container mt-4">
+    <div class ="btn-group">
+      <a href ="#" class="btn btn-warning">1</a>
+      <a href ="#" class="btn btn-success">2</a>
+      <a href ="#" class="btn btn-info">3</a>
+    </div>
+  </div>
+
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
+
+
+<!--  <img class =" img-thumbnail" : kucuk resim olusturmak icin kullanilir..
+       <img class =" img-fluid border border-danger border-4 :kenar cerceve yapti kirmizi renk 4 kalinlikta...
+      rounded-3 : resimlerin koseleri yuvarlama.. 3 boyutunda..
+      img-fluid border border-success border-3 rounded-pill: yesil renkte 3 kalinlikta.. oval(rounded-pill) yapti..
+
+  buton
+  btn : buton classi
+  <button class="btn btn-danger">SİL</button> : btn-danger->buton rengi 
+  <button class="btn btn-outline-warning">TIKLA</button> : btn-outline-warning->buton cerceve rengi
+  <button type="button" class="btn btn-primary btn-lg d-block  w-100">KAYDET</button> : 
+  btn-lg : buton boyutu large .. bt-sm de olur small...
+  d-block ile alt satira gecildi.. 
+  w-100 ile tum satiri kapladi.. butonu bulundugu yere yatayda tam sıgdırdı..
+
+  <a href="index.html#resim-1">KAYDET</a>  isim id ise # isareti kullandik..
+  class="text-decoration-none"> :alti cizgili olanin cizgisini siler...
+
+-->
